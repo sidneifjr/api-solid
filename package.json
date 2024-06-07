@@ -1,0 +1,25 @@
+{
+  "name": "api-solid",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun src/server.ts",
+    "start": "bun build/server.cjs",
+    "build": "tsup src --out-dir build"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
+    "@types/bun": "latest",
+    "eslint": "8.57.0"
+  },
+  "peerDependencies": {
+    "typescript": "5.0.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "fastify": "4.27.0",
+    "prisma": "^5.15.0",
+    "tsup": "8.1.0",
+    "zod": "3.23.8"
+  }
+}
