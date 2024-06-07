@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "bun src/server.ts",
     "start": "bun build/server.cjs",
-    "build": "tsup src --out-dir build"
+    "build": "tsup src --out-dir build",
+    "migrate": "bunx prisma migrate dev",
+    "studio": "bunx prisma studio"
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "2.2.2",
