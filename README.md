@@ -18,6 +18,10 @@ GymPass style app.
 
 `bun run build`
 
+### Entidades (keywords) a serem persistidas
+
+Usuário, academia, check-in.
+
 ## RFs (Requisitos funcionais)
 
 Funcionalidades da aplicação: o que o usuário consegue fazer usando a mesma? Porém, não envolve como será feito.
