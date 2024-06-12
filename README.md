@@ -22,6 +22,10 @@ D: Dependency Inversion Principle (DIP)
 
 ## Dev
 
+Para levantar mais rapidamente, rode:
+
+`./startup.sh`
+
 ### Server
 
 `bun dev`
