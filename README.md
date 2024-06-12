@@ -8,6 +8,18 @@ GymPass style app.
 
 - Repository Pattern.
 
+- SOLID:
+
+S:
+
+O:
+
+L:
+
+I:
+
+D: Dependency Inversion Principle (DIP)
+
 ## Dev
 
 ### Server
